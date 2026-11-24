@@ -1,0 +1,1557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Smart Vijayawada – The City of Tomorrow. Official smart city digital portal showcasing public services, advanced transportation, healthcare, education, emergency helplines, and landmarks.">
+  <meta name="theme-color" content="#0a192f">
+  <title>Smart Vijayawada – The City of Tomorrow | Official Smart City Portal</title>
+  
+  <!-- Google Fonts: Poppins for modern typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- External CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========================================================
+       SECTION 1: NAVIGATION BAR
+       Responsive header with pure CSS mobile toggle
+       ======================================================== -->
+  <header class="header" id="top">
+    <div class="nav-container">
+      <!-- Smart City Brand / Logo -->
+      <a href="#home" class="brand" aria-label="Smart Vijayawada Home">
+        <div class="brand-icon">
+          <!-- Futuristic City/Tech SVG Logo -->
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Smart Vijayawada</span>
+          <span class="brand-subtitle">The City of Tomorrow</span>
+        </div>
+      </a>
+
+      <!-- Pure CSS Hamburger Toggle (No JS required) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle Navigation Menu">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About City</a></li>
+          <li class="nav-item"><a href="#transportation" class="nav-link">Transportation</a></li>
+          <li class="nav-item"><a href="#healthcare" class="nav-link">Healthcare</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Public Services</a></li>
+          <li class="nav-item"><a href="#emergency" class="nav-link emergency-link">Emergency</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-item">
+            <a href="#locations" class="btn btn-nav-highlight">Explore City</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================
+         SECTION 2: HERO / WELCOME SECTION
+         Dynamic skyline background, title, intro & highlights
+         ======================================================== -->
+    <section class="hero-section" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Next-Generation Andhra Pradesh Urban Hub
+        </div>
+        <h1 class="hero-title">Welcome to <span>Smart Vijayawada</span></h1>
+        <p class="hero-subtitle">Building a Smarter, Greener and Better Tomorrow</p>
+        <p class="hero-description">
+          Nestled along the banks of the sacred Krishna River, Vijayawada is undergoing a landmark transformation. 
+          By seamlessly integrating Internet-of-Things (IoT) public infrastructure, clean riverfront corridors, 
+          AI-managed transit grids, and citizen-first digital e-governance, Smart Vijayawada delivers an enriched, 
+          sustainable urban life for every resident and visitor.
+        </p>
+
+        <!-- Call to Action Buttons -->
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-primary">
+            Explore Services
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="#initiatives" class="btn btn-outline">City Initiatives</a>
+        </div>
+
+        <!-- Hero City Highlights Strip -->
+        <div class="hero-highlights">
+          <div class="highlight-item">
+            <div class="highlight-icon">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+            <div class="highlight-info">
+              <span class="highlight-title">Command Center</span>
+              <span class="highlight-desc">24/7 Integrated City Ops</span>
+            </div>
+          </div>
+
+          <div class="highlight-item">
+            <div class="highlight-icon green">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+                <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+              </svg>
+            </div>
+            <div class="highlight-info">
+              <span class="highlight-title">Eco-Riverfront</span>
+              <span class="highlight-desc">Krishna River Green Belt</span>
+            </div>
+          </div>
+
+          <div class="highlight-item">
+            <div class="highlight-icon cyan">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <div class="highlight-info">
+              <span class="highlight-title">100% Digital Access</span>
+              <span class="highlight-desc">Seamless Citizen Portals</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 3: ABOUT OUR SMART CITY
+         Concept, infrastructure, sustainable tech & vision
+         ======================================================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Our Smart City</span>
+          <h2 class="section-title">Where Ancient Heritage Meets Futuristic Innovation</h2>
+          <p class="section-subtitle">
+            Known historically as Bezawada and revered for the sacred Indrakeeladri shrine, Vijayawada is now redefining the urban experience with cutting-edge digital infrastructure and sustainable smart governance.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- About Content Left Column -->
+          <div class="about-content">
+            <div class="about-block">
+              <div class="about-block-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                  <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                  <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                </svg>
+              </div>
+              <div class="about-block-text">
+                <h3>Digital Infrastructure</h3>
+                <p>
+                  High-speed optical fiber backbone, city-wide IoT telemetry, and an Integrated City Command and Control Center (ICCC) provide live monitoring of water, air quality, lighting, and traffic flows.
+                </p>
+              </div>
+            </div>
+
+            <div class="about-block">
+              <div class="about-block-icon green">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <div class="about-block-text">
+                <h3>Sustainable Urban Ecology</h3>
+                <p>
+                  Solar-powered public utilities, rainwater harvesting reservoirs along the Krishna basin, zero-emission electric bus routes, and expansive green breathing zones foster environmental balance.
+                </p>
+              </div>
+            </div>
+
+            <div class="about-block">
+              <div class="about-block-icon cyan">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <div class="about-block-text">
+                <h3>Our Vision for Tomorrow</h3>
+                <p>
+                  To establish Vijayawada as the commercial, educational, and technological beacon of Andhra Pradesh—combining resilient economic opportunities with an exceptional standard of civic life.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- About Image Right Column -->
+          <div class="about-visual">
+            <div class="about-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1477959858617-67f30bc75b82?auto=format&fit=crop&w=1000&q=80" 
+                   alt="Modern Smart City Skyline and Bridge" 
+                   class="about-img" 
+                   loading="lazy">
+              <div class="about-badge-card">
+                <div class="badge-number">100%</div>
+                <div class="badge-text">Vision for Clean & Connected Living</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 4: CITY STATISTICS
+         Sample / Illustrative statistics clearly labeled
+         ======================================================== -->
+    <section class="section stats-section" id="statistics">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Key City Metrics</span>
+          <h2 class="section-title">City at a Glance</h2>
+          <p class="section-subtitle">
+            *Illustrative smart city metrics, operational benchmarks, and projected urban indicators for Smart Vijayawada.
+          </p>
+        </div>
+
+        <div class="stats-grid">
+          <!-- Stat Card 1 -->
+          <div class="stat-card">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div class="stat-number">1.5M+</div>
+            <div class="stat-label">Total Population</div>
+            <div class="stat-note">Metropolitan urban corridor</div>
+          </div>
+
+          <!-- Stat Card 2 -->
+          <div class="stat-card">
+            <div class="stat-icon red-accent">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+            </div>
+            <div class="stat-number">120+</div>
+            <div class="stat-label">Hospitals & Clinics</div>
+            <div class="stat-note">Government & tertiary hubs</div>
+          </div>
+
+          <!-- Stat Card 3 -->
+          <div class="stat-card">
+            <div class="stat-icon cyan">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <div class="stat-number">350+</div>
+            <div class="stat-label">Educational Institutions</div>
+            <div class="stat-note">Schools, universities & polytechnics</div>
+          </div>
+
+          <!-- Stat Card 4 -->
+          <div class="stat-card">
+            <div class="stat-icon green">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="14" rx="2"></rect>
+                <path d="M7 14h.01"></path>
+                <path d="M17 14h.01"></path>
+                <path d="M6 18h12"></path>
+              </svg>
+            </div>
+            <div class="stat-number">450+</div>
+            <div class="stat-label">Public Transport Fleet</div>
+            <div class="stat-note">GPS-monitored city buses & BRTS</div>
+          </div>
+
+          <!-- Stat Card 5 -->
+          <div class="stat-card">
+            <div class="stat-icon green">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2a9 9 0 0 1 9 9c0 4.97-4.03 9-9 9a9 9 0 0 1-9-9c0-4.97 4.03-9 9-9z"></path>
+                <path d="M12 6v6l4 2"></path>
+              </svg>
+            </div>
+            <div class="stat-number">60+</div>
+            <div class="stat-label">Green Parks & Spaces</div>
+            <div class="stat-note">Riverfront gardens & eco-parks</div>
+          </div>
+
+          <!-- Stat Card 6 -->
+          <div class="stat-card">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+              </svg>
+            </div>
+            <div class="stat-number">95+</div>
+            <div class="stat-label">Smart Public Services</div>
+            <div class="stat-note">Paperless e-governance systems</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 5: SMART TRANSPORTATION
+         Facilities: Buses, Railway, Metro, Taxis, Traffic, EV
+         ======================================================== -->
+    <section class="section transport-section" id="transportation">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Transit & Mobility</span>
+          <h2 class="section-title">Smart Transportation Ecosystem</h2>
+          <p class="section-subtitle">
+            Seamless multi-modal connectivity designed for eco-efficiency, reduced congestion, and punctual commuter journeys across Vijayawada.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <!-- Transport Card 1: City Buses -->
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=700&q=80" 
+                   alt="Modern Electric City Bus" 
+                   class="facility-img" 
+                   loading="lazy">
+              <span class="facility-badge">APSRTC Fleet</span>
+            </div>
+            <div class="facility-body">
+              <div class="facility-icon-title">
+                <div class="mini-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="4" y="4" width="16" height="13" rx="2"></rect>
+                    <path d="M8 17v2"></path>
+                    <path d="M16 17v2"></path>
+                    <circle cx="8" cy="13" r="1.5"></circle>
+                    <circle cx="16" cy="13" r="1.5"></circle>
+                  </svg>
+                </div>
+                <h3>Intelligent City Buses</h3>
+              </div>
+              <p>
+                Connected APSRTC city bus networks equipped with real-time GPS tracking, electronic ticketing, air-conditioned express lines, and mobile pass renewal.
+              </p>
+            </div>
+          </div>
+
+          <!-- Transport Card 2: Railway Station -->
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=700&q=80" 
+                   alt="High Speed Train at Railway Station" 
+                   class="facility-img" 
+                   loading="lazy">
+              <span class="facility-badge">A1 Category Hub</span>
+            </div>
+            <div class="facility-body">
+              <div class="facility-icon-title">
+                <div class="mini-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="4" y="3" width="16" height="14" rx="2"></rect>
+                    <path d="m4 11 16 0"></path>
+                    <path d="M12 3v8"></path>
+                    <path d="m8 17-2 4"></path>
+                    <path d="m16 17 2 4"></path>
+                  </svg>
+                </div>
+                <h3>Vijayawada Junction Railway</h3>
+              </div>
+              <p>
+                One of India’s premier central junctions connecting Northern and Southern corridors, enhanced with automated escalators, smart luggage scans, and digital displays.
+              </p>
+            </div>
+          </div>
+
+          <!-- Transport Card 3: Proposed Metro -->
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=700&q=80" 
+                   alt="Modern Metro Rail System" 
+                   class="facility-img" 
+                   loading="lazy">
+              <span class="facility-badge proposed">Proposed Corridor</span>
+            </div>
+            <div class="facility-body">
+              <div class="facility-icon-title">
+                <div class="mini-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="6" y1="18" x2="6" y2="18.01"></line>
+                    <line x1="18" y1="18" x2="18.01" y2="18"></line>
+                    <rect x="4" y="3" width="16" height="15" rx="3"></rect>
+                    <path d="M12 3v15"></path>
+                    <path d="M4 10h16"></path>
+                  </svg>
+                </div>
+                <h3>Vijayawada Metro Rail</h3>
+              </div>
+              <p>
+                The planned Amaravati-Vijayawada light rapid transit metro system mapped to connect Pandit Nehru Bus Station (PNBS), Gannavaram Airport, and Penamaluru.
+              </p>
+            </div>
+          </div>
+
+          <!-- Transport Card 4: Auto and Taxi Services -->
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=700&q=80" 
+                   alt="City Cabs and Taxi Service" 
+                   class="facility-img" 
+                   loading="lazy">
+              <span class="facility-badge">24/7 Mobility</span>
+            </div>
+            <div class="facility-body">
+              <div class="facility-icon-title">
+                <div class="mini-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 16H9m10 0h3v-3.15a1 1 0 0 0-.84-.99L16 11l-2.7-3.6a1 1 0 0 0-.8-.4H8.5a1 1 0 0 0-.8.4L5 11l-5.16.86a1 1 0 0 0-.84.99V16h3"></path>
+                    <circle cx="6.5" cy="16.5" r="2.5"></circle>
+                    <circle cx="16.5" cy="16.5" r="2.5"></circle>
+                  </svg>
+                </div>
+                <h3>Smart Auto & Taxi Network</h3>
+              </div>
+              <p>
+                Regulated pre-paid digital auto stands at bus terminals and railway stations, alongside integrated ride-hailing app services for convenient last-mile transit.
+              </p>
+            </div>
+          </div>
+
+          <!-- Transport Card 5: Smart Traffic Management -->
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1508873696983-2df5293cb32f?auto=format&fit=crop&w=700&q=80" 
+                   alt="Smart Traffic Signals at Night" 
+                   class="facility-img" 
+                   loading="lazy">
+              <span class="facility-badge">AI Surveillance</span>
+            </div>
+            <div class="facility-body">
+              <div class="facility-icon-title">
+                <div class="mini-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2v20"></path>
+                    <rect x="7" y="5" width="10" height="14" rx="2"></rect>
+                    <circle cx="12" cy="8" r="1"></circle>
+                    <circle cx="12" cy="12" r="1"></circle>
+                    <circle cx="12" cy="16" r="1"></circle>
+                  </svg>
+                </div>
+                <h3>Smart Traffic Management</h3>
+              </div>
+              <p>
+                Adaptive signal control systems along Benz Circle, MG Road, and Eluru Road with AI cameras to penalize violations, optimize wait times, and open emergency green corridors.
+              </p>
+            </div>
+          </div>
+
+          <!-- Transport Card 6: EV Charging Stations -->
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&w=700&q=80" 
+                   alt="Electric Vehicle Charging Point" 
+                   class="facility-img" 
+                   loading="lazy">
+              <span class="facility-badge green-badge">Green Fleet</span>
+            </div>
+            <div class="facility-body">
+              <div class="facility-icon-title">
+                <div class="mini-icon green">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 18H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.19M15 6h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3.19"></path>
+                    <line x1="23" y1="13" x2="23" y2="11"></line>
+                    <polyline points="11 6 7 12 13 12 9 18"></polyline>
+                  </svg>
+                </div>
+                <h3>EV Charging Grid</h3>
+              </div>
+              <p>
+                Rapid DC fast-charging spots deployed in municipal parking lots, commercial malls, and highways to encourage electric two-wheelers, auto-rickshaws, and clean cars.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 6: HEALTHCARE AND HOSPITALS
+         Govt, Private, Emergency Medical, Ambulance, Online Portal
+         ======================================================== -->
+    <section class="section healthcare-section" id="healthcare">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Medical Infrastructure</span>
+          <h2 class="section-title">Healthcare & Hospital Services</h2>
+          <p class="section-subtitle">
+            Ensuring world-class wellness, rapid emergency treatment, and comprehensive medical infrastructure for the citizens of Vijayawada.
+          </p>
+        </div>
+
+        <div class="cards-grid cards-5-grid">
+          <!-- Healthcare Card 1: Govt Hospitals -->
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=700&q=80" 
+                   alt="Government General Hospital Vijayawada" 
+                   class="facility-img" 
+                   loading="lazy">
+              <span class="facility-badge">Public Care</span>
+            </div>
+            <div class="facility-body">
+              <div class="facility-icon-title">
+                <div class="mini-icon red-accent">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 6v12M6 12h12"></path>
+                  </svg>
+                </div>
+                <h3>Government General Hospital (GGH)</h3>
+              </div>
+              <p>
+                Flagship public medical teaching hospital offering round-the-clock emergency care, specialized pediatric, cardiology, and maternity wards, and free Aarogyasri health coverage.
+              </p>
+            </div>
+          </div>
+
+          <!-- Healthcare Card 2: Private Hospitals -->
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=700&q=80" 
+                   alt="Modern Private Multi-speciality Hospital" 
+                   class="facility-img" 
+                   loading="lazy">
+              <span class="facility-badge">Super Specialty</span>
+            </div>
+            <div class="facility-body">
+              <div class="facility-icon-title">
+                <div class="mini-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+                    <path d="M12 9v6M9 12h6"></path>
+                  </svg>
+                </div>
+                <h3>Private Multispeciality Hospitals</h3>
+              </div>
+              <p>
+                Leading healthcare institutes including Manipal, Ramesh Hospitals, and Andhra Hospitals providing state-of-the-art robotic surgeries, oncology, and intensive care units.
+              </p>
+            </div>
+          </div>
+
+          <!-- Healthcare Card 3: Emergency Medical Services -->
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=700&q=80" 
+                   alt="Emergency Room Trauma Unit" 
+                   class="facility-img" 
+                   loading="lazy">
+              <span class="facility-badge red-badge">Critical Care</span>
+            </div>
+            <div class="facility-body">
+              <div class="facility-icon-title">
+                <div class="mini-icon red-accent">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                  </svg>
+                </div>
+                <h3>Emergency Medical Services</h3>
+              </div>
+              <p>
+                Advanced level-1 trauma facilities equipped with life-support ventilators, defibrillators, dedicated burn care wards, and immediate neurological interventions.
+              </p>
+            </div>
+          </div>
+
+          <!-- Healthcare Card 4: Ambulance Services -->
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1587745416684-47953f16f02f?auto=format&fit=crop&w=700&q=80" 
+                   alt="108 Emergency Ambulance" 
+                   class="facility-img" 
+                   loading="lazy">
+              <span class="facility-badge red-badge">Dial 108</span>
+            </div>
+            <div class="facility-body">
+              <div class="facility-icon-title">
+                <div class="mini-icon red-accent">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="1" y="3" width="15" height="13"></rect>
+                    <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                    <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                    <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                  </svg>
+                </div>
+                <h3>108 Ambulance Response</h3>
+              </div>
+              <p>
+                GPS-synchronized basic and advanced life support ambulances with trained paramedics on standby across all municipal circles for swift patient pickup under 15 minutes.
+              </p>
+            </div>
+          </div>
+
+          <!-- Healthcare Card 5: Online Healthcare Portal -->
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=700&q=80" 
+                   alt="Doctor Consults via Digital Tablet" 
+                   class="facility-img" 
+                   loading="lazy">
+              <span class="facility-badge cyan-badge">Telemedicine</span>
+            </div>
+            <div class="facility-body">
+              <div class="facility-icon-title">
+                <div class="mini-icon cyan">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <h3>Online Healthcare & Tele-OPD</h3>
+              </div>
+              <p>
+                City healthcare digital portal to check hospital bed vacancies, book government Out-Patient Department (OPD) tokens, find blood banks, and consult virtual medical officers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 7: EDUCATION AND LEARNING
+         Schools, Colleges, Universities, Technical, Digital, Libraries
+         ======================================================== -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Knowledge & Future Talents</span>
+          <h2 class="section-title">Education & Learning Centers</h2>
+          <p class="section-subtitle">
+            Cultivating modern scientific temper, technical capabilities, and creative minds from primary schooling to advanced university research.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <!-- Edu Card 1: Schools -->
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=700&q=80" 
+                   alt="Modern Classroom with Students" 
+                   class="facility-img" 
+                   loading="lazy">
+              <span class="facility-badge">K-12 Smart Ed</span>
+            </div>
+            <div class="facility-body">
+              <div class="facility-icon-title">
+                <div class="mini-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                  </svg>
+                </div>
+                <h3>Smart Municipal & Private Schools</h3>
+              </div>
+              <p>
+                Interactive digital blackboards, STEM innovation laboratories, bilingual education programs, and high-speed campus internet across civic and private school clusters.
+              </p>
+            </div>
+          </div>
+
+          <!-- Edu Card 2: Colleges -->
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=700&q=80" 
+                   alt="College Campus Lawn" 
+                   class="facility-img" 
+                   loading="lazy">
+              <span class="facility-badge">Undergraduate</span>
+            </div>
+            <div class="facility-body">
+              <div class="facility-icon-title">
+                <div class="mini-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+                <h3>Colleges & Higher Learning</h3>
+              </div>
+              <p>
+                Home to prestigious institutions such as Andhra Loyola College, SRR & CVR Government College, providing enriched humanities, commerce, and science programs.
+              </p>
+            </div>
+          </div>
+
+          <!-- Edu Card 3: Universities -->
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=700&q=80" 
+                   alt="University Building and Campus" 
+                   class="facility-img" 
+                   loading="lazy">
+              <span class="facility-badge">Higher Research</span>
+            </div>
+            <div class="facility-body">
+              <div class="facility-icon-title">
+                <div class="mini-icon cyan">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                    <path d="M2 12h20"></path>
+                  </svg>
+                </div>
+                <h3>Universities & Research Institutes</h3>
+              </div>
+              <p>
+                Dr. NTR University of Health Sciences, School of Planning and Architecture (SPA), and neighboring Amaravati university hubs driving pioneering academic research.
+              </p>
+            </div>
+          </div>
+
+          <!-- Edu Card 4: Technical Education -->
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=700&q=80" 
+                   alt="Technical Engineering Workshop" 
+                   class="facility-img" 
+                   loading="lazy">
+              <span class="facility-badge">Engineering & AI</span>
+            </div>
+            <div class="facility-body">
+              <div class="facility-icon-title">
+                <div class="mini-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                    <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                    <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                    <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                  </svg>
+                </div>
+                <h3>Technical & Polytechnic Institutes</h3>
+              </div>
+              <p>
+                P.B. Siddhartha, Velagapudi Ramakrishna Siddhartha Engineering College, and Government Polytechnic centers offering specialized IT, electronics, robotics, and industrial skills.
+              </p>
+            </div>
+          </div>
+
+          <!-- Edu Card 5: Digital Learning Centers -->
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=700&q=80" 
+                   alt="Digital Learning and Computer Lab" 
+                   class="facility-img" 
+                   loading="lazy">
+              <span class="facility-badge green-badge">Skill Hubs</span>
+            </div>
+            <div class="facility-body">
+              <div class="facility-icon-title">
+                <div class="mini-icon green">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                </div>
+                <h3>Digital Skill & Innovation Hubs</h3>
+              </div>
+              <p>
+                Community computer hubs and startup incubators facilitating free coding bootcamps, digital literacy courses, vocational credentials, and career readiness training.
+              </p>
+            </div>
+          </div>
+
+          <!-- Edu Card 6: Libraries -->
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=700&q=80" 
+                   alt="Modern Public Library" 
+                   class="facility-img" 
+                   loading="lazy">
+              <span class="facility-badge">Open Access</span>
+            </div>
+            <div class="facility-body">
+              <div class="facility-icon-title">
+                <div class="mini-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                  </svg>
+                </div>
+                <h3>Smart Public Libraries & Archives</h3>
+              </div>
+              <p>
+                Tagore Memorial Library and municipal study centers upgraded with e-book kiosks, high-speed Wi-Fi reading spaces, and preserved Telugu literary digital repositories.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 8: SMART PUBLIC SERVICES
+         Govt, Water, Electricity, Waste, Wi-Fi, Grievances, Lighting, Parking
+         ======================================================== -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Citizen Convenience</span>
+          <h2 class="section-title">Digital Public Services</h2>
+          <p class="section-subtitle">
+            Harnessing smart technology to provide 24/7 transparent, paperless, and dependable municipal administration for every resident.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service Card 1: Online Govt Services -->
+          <div class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3>Online Citizen Services</h3>
+            <p>Single-window access via MeeSeva and VMC Citizen portal for birth/death certificates, property tax payments, and trade licenses.</p>
+            <span class="service-meta">Status: 24/7 Online</span>
+          </div>
+
+          <!-- Service Card 2: Water Supply -->
+          <div class="service-card">
+            <div class="service-icon cyan">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+              </svg>
+            </div>
+            <h3>Smart Water Supply System</h3>
+            <p>SCADA-based automated water monitoring from Krishna river filtration plants, tracking daily pressure, purity metrics, and pipeline leak alerts.</p>
+            <span class="service-meta">Coverage: 98% Citywide</span>
+          </div>
+
+          <!-- Service Card 3: Electricity Services -->
+          <div class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <h3>APCPDCL Smart Power Grid</h3>
+            <p>Automated power sub-stations, prepaid smart meters, instant online bill clearance, and proactive SMS maintenance notifications.</p>
+            <span class="service-meta">Reliability: 99.4% Uptime</span>
+          </div>
+
+          <!-- Service Card 4: Waste Management -->
+          <div class="service-card">
+            <div class="service-icon green">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="3 6 5 6 21 6"></polyline>
+                <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+              </svg>
+            </div>
+            <h3>Smart Solid Waste Management</h3>
+            <p>GPS-monitored sanitation trucks, RFID-tagged garbage bins, door-to-door segregated collection, and waste-to-energy recycling plants.</p>
+            <span class="service-meta">Cleanliness: Ranked Top 3</span>
+          </div>
+
+          <!-- Service Card 5: Public Wi-Fi -->
+          <div class="service-card">
+            <div class="service-icon cyan">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                <line x1="12" y1="20" x2="12.01" y2="20"></line>
+              </svg>
+            </div>
+            <h3>City-Wide High-Speed Wi-Fi</h3>
+            <p>Complimentary high-speed public hotspots located across major bus stations, public parks, Bhavani Island, and commercial centers.</p>
+            <span class="service-meta">Hotspots: 140+ Zones</span>
+          </div>
+
+          <!-- Service Card 6: Grievance Redressal -->
+          <div class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+            <h3>Grievance & Spandana Portal</h3>
+            <p>Submit civic complaints regarding potholes, sanitation, or streetlights online with tracking numbers and guaranteed time-bound resolution.</p>
+            <span class="service-meta">Avg Resolution: 48 Hours</span>
+          </div>
+
+          <!-- Service Card 7: Street Lighting -->
+          <div class="service-card">
+            <div class="service-icon green">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+              </svg>
+            </div>
+            <h3>Intelligent LED Street Lighting</h3>
+            <p>Automated motion-sensing and twilight-controlled LED streetlamps reducing city energy consumption while ensuring nighttime road safety.</p>
+            <span class="service-meta">Energy Saved: 45% Annual</span>
+          </div>
+
+          <!-- Service Card 8: Smart Parking -->
+          <div class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M9 17V7h4a3 3 0 0 1 0 6H9"></path>
+              </svg>
+            </div>
+            <h3>Smart Sensor Parking</h3>
+            <p>Live parking space availability updates on mobile apps for MG Road, Besant Road, and Gandhi Hill parking lots to save time and reduce congestion.</p>
+            <span class="service-meta">Spaces: 2,500+ Monitored</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 9: EMERGENCY INFORMATION
+         High visual priority: Police 100, Fire 101, Ambulance 108, Helpline 112
+         ======================================================== -->
+    <section class="section emergency-section" id="emergency">
+      <div class="container">
+        <!-- Emergency Alert Banner -->
+        <div class="emergency-banner">
+          <div class="emergency-badge">URGENT RESPONSE</div>
+          <h2 class="emergency-main-title">24x7 Emergency Services & Toll-Free Helplines</h2>
+          <p class="emergency-subtitle">
+            Immediate assistance is available round-the-clock. Call the numbers below for immediate dispatch of police, medical assistance, fire rescue, or disaster mitigation units.
+          </p>
+        </div>
+
+        <div class="emergency-grid">
+          <!-- Emergency Card 1: Police 100 -->
+          <div class="emergency-card">
+            <div class="emergency-icon-wrap">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <div class="emergency-info">
+              <span class="emergency-role">Police Control Room</span>
+              <a href="tel:100" class="emergency-dial-btn" aria-label="Call Police 100">
+                <span class="dial-number">100</span>
+                <span class="dial-text">Tap to Call</span>
+              </a>
+              <p class="emergency-detail">Law & order, crime reporting, neighborhood patrol dispatch, and citizen safety assistance.</p>
+            </div>
+          </div>
+
+          <!-- Emergency Card 2: Fire Services 101 -->
+          <div class="emergency-card">
+            <div class="emergency-icon-wrap">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path>
+              </svg>
+            </div>
+            <div class="emergency-info">
+              <span class="emergency-role">Fire & Rescue Services</span>
+              <a href="tel:101" class="emergency-dial-btn" aria-label="Call Fire Services 101">
+                <span class="dial-number">101</span>
+                <span class="dial-text">Tap to Call</span>
+              </a>
+              <p class="emergency-detail">Fire outbreaks, building collapses, industrial mishaps, and flood search & rescue operations.</p>
+            </div>
+          </div>
+
+          <!-- Emergency Card 3: Ambulance 108 -->
+          <div class="emergency-card">
+            <div class="emergency-icon-wrap">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+            </div>
+            <div class="emergency-info">
+              <span class="emergency-role">Medical Ambulance</span>
+              <a href="tel:108" class="emergency-dial-btn" aria-label="Call Ambulance 108">
+                <span class="dial-number">108</span>
+                <span class="dial-text">Tap to Call</span>
+              </a>
+              <p class="emergency-detail">Cardiac emergencies, road accidents, maternity support, and rapid critical care transport.</p>
+            </div>
+          </div>
+
+          <!-- Emergency Card 4: Unified Helpline 112 -->
+          <div class="emergency-card highlighted-helpline">
+            <div class="emergency-icon-wrap">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <div class="emergency-info">
+              <span class="emergency-role">Integrated National Helpline</span>
+              <a href="tel:112" class="emergency-dial-btn" aria-label="Call National Emergency 112">
+                <span class="dial-number">112</span>
+                <span class="dial-text">Tap to Call</span>
+              </a>
+              <p class="emergency-detail">All-in-one national emergency response for multi-agency rapid coordination and rescue.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Additional Helplines Strip -->
+        <div class="aux-helplines">
+          <div class="aux-item"><strong>Women Helpline:</strong> <a href="tel:181">181</a> / Disha SOS</div>
+          <div class="aux-item"><strong>Child Helpline:</strong> <a href="tel:1098">1098</a></div>
+          <div class="aux-item"><strong>Disaster Management:</strong> <a href="tel:1077">1077</a></div>
+          <div class="aux-item"><strong>VMC Civic Grievance:</strong> <a href="tel:08662422400">0866-2422400</a></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 10: IMPORTANT CITY LOCATIONS
+         Prakasam Barrage, Kanaka Durga Temple, Bhavani Island,
+         Vijayawada Railway Station, Gandhi Hill, Undavalli Caves
+         ======================================================== -->
+    <section class="section locations-section" id="locations">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Explore The City</span>
+          <h2 class="section-title">Important City Locations</h2>
+          <p class="section-subtitle">
+            Discover iconic landmarks, spiritual sanctuaries, historic monuments, and natural wonders defining the soul and skyline of Vijayawada.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <!-- Location 1: Prakasam Barrage -->
+          <div class="location-card">
+            <div class="location-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1545671913-b89ac1b4ac10?auto=format&fit=crop&w=800&q=80" 
+                   alt="Prakasam Barrage across Krishna River" 
+                   class="location-img" 
+                   loading="lazy">
+              <span class="location-tag">Riverfront Landmark</span>
+            </div>
+            <div class="location-body">
+              <div class="location-header">
+                <h3>Prakasam Barrage</h3>
+                <span class="location-geo">Krishna River</span>
+              </div>
+              <p>
+                A majestic 1,223-meter structure spanning the Krishna River, regulating crucial irrigation for the delta while offering a spectacular illuminated promenade and sunset views.
+              </p>
+              <div class="location-footer">
+                <span class="location-time">Open 24 Hours • Scenic Walkway</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Location 2: Kanaka Durga Temple -->
+          <div class="location-card">
+            <div class="location-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80" 
+                   alt="Kanaka Durga Temple Indrakeeladri Hill" 
+                   class="location-img" 
+                   loading="lazy">
+              <span class="location-tag">Spiritual Sanctuary</span>
+            </div>
+            <div class="location-body">
+              <div class="location-header">
+                <h3>Kanaka Durga Temple</h3>
+                <span class="location-geo">Indrakeeladri Hill</span>
+              </div>
+              <p>
+                Perched high on the Indrakeeladri hill overlooking the river and the city, this venerated shrine dedicated to Goddess Durga is the spiritual heart of the region.
+              </p>
+              <div class="location-footer">
+                <span class="location-time">Darshan: 4:00 AM – 9:00 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Location 3: Bhavani Island -->
+          <div class="location-card">
+            <div class="location-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" 
+                   alt="Bhavani Island Eco Tourism Park" 
+                   class="location-img" 
+                   loading="lazy">
+              <span class="location-tag">Eco-Tourism Hub</span>
+            </div>
+            <div class="location-body">
+              <div class="location-header">
+                <h3>Bhavani Island</h3>
+                <span class="location-geo">Krishna River Delta</span>
+              </div>
+              <p>
+                Spanning 133 picturesque acres in the midst of the Krishna River, Bhavani Island offers water sports, botanical biodiversity, treehouse retreats, and tranquil picnics.
+              </p>
+              <div class="location-footer">
+                <span class="location-time">Boating: 9:00 AM – 5:30 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Location 4: Vijayawada Railway Station -->
+          <div class="location-card">
+            <div class="location-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=80" 
+                   alt="Vijayawada Railway Station Junction" 
+                   class="location-img" 
+                   loading="lazy">
+              <span class="location-tag">Transport Hub</span>
+            </div>
+            <div class="location-body">
+              <div class="location-header">
+                <h3>Vijayawada Junction</h3>
+                <span class="location-geo">Railway Central</span>
+              </div>
+              <p>
+                One of the busiest railway gateways in the Indian Railways network, bridging the Howrah-Chennai and New Delhi-Chennai corridors with premier passenger facilities.
+              </p>
+              <div class="location-footer">
+                <span class="location-time">Continuous 24/7 Operations</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Location 5: Gandhi Hill -->
+          <div class="location-card">
+            <div class="location-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=800&q=80" 
+                   alt="Gandhi Hill Monument and Stupa" 
+                   class="location-img" 
+                   loading="lazy">
+              <span class="location-tag">Historical Monument</span>
+            </div>
+            <div class="location-body">
+              <div class="location-header">
+                <h3>Gandhi Hill Memorial</h3>
+                <span class="location-geo">Tarapet Area</span>
+              </div>
+              <p>
+                The first Gandhi memorial stupa built in India, featuring historic stone-inscribed quotes, a planetarium, a toy train, and an exhilarating 360-degree vantage point of the city.
+              </p>
+              <div class="location-footer">
+                <span class="location-time">Visiting Hours: 4:30 PM – 8:30 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Location 6: Undavalli Caves -->
+          <div class="location-card">
+            <div class="location-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1590073844006-33379778ae09?auto=format&fit=crop&w=800&q=80" 
+                   alt="Undavalli Monolithic Rock-cut Caves" 
+                   class="location-img" 
+                   loading="lazy">
+              <span class="location-tag">Archaeological Wonder</span>
+            </div>
+            <div class="location-body">
+              <div class="location-header">
+                <h3>Undavalli Rock-Cut Caves</h3>
+                <span class="location-geo">Guntur Road Border</span>
+              </div>
+              <p>
+                Remarkable 7th-century monolithic rock-cut sandstone caves showcasing ancient Gupta architecture and a monumental reclining idol of Lord Vishnu sculpted from a single granite block.
+              </p>
+              <div class="location-footer">
+                <span class="location-time">ASI Hours: 9:00 AM – 6:00 PM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 11: SMART CITY INITIATIVES
+         Green Energy, Digital Connectivity, Clean Environment,
+         Smart Traffic, Sustainable Infrastructure, Water Conservation
+         ======================================================== -->
+    <section class="section initiatives-section" id="initiatives">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Sustainable Progress</span>
+          <h2 class="section-title">Smart City Initiatives</h2>
+          <p class="section-subtitle">
+            Transformative forward-thinking programs engineered to build a clean, resilient, and climate-positive urban ecosystem for future generations.
+          </p>
+        </div>
+
+        <div class="initiatives-grid">
+          <!-- Initiative 1: Green Energy -->
+          <div class="initiative-card">
+            <div class="initiative-icon green">
+              <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+              </svg>
+            </div>
+            <h3>Green Solar Energy Grid</h3>
+            <p>
+              Mandatory solar panels on government complexes and residential incentives to generate 40 MW of clean renewable solar electricity.
+            </p>
+            <ul class="initiative-points">
+              <li>Rooftop Solar Subsidies</li>
+              <li>Net Metering Integration</li>
+            </ul>
+          </div>
+
+          <!-- Initiative 2: Digital Connectivity -->
+          <div class="initiative-card">
+            <div class="initiative-icon cyan">
+              <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3>Next-Gen Digital Connectivity</h3>
+            <p>
+              Underground optical fiber conduit network spanning 300+ km ensuring ultra-low latency 5G rollouts and institutional connectivity.
+            </p>
+            <ul class="initiative-points">
+              <li>Unified Fiber Conduit</li>
+              <li>Public Free Wi-Fi Nodes</li>
+            </ul>
+          </div>
+
+          <!-- Initiative 3: Clean Environment -->
+          <div class="initiative-card">
+            <div class="initiative-icon green">
+              <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+                <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+              </svg>
+            </div>
+            <h3>Clean Riverfront & Air Quality</h3>
+            <p>
+              Continuous ambient air monitoring sensors, plastic-free riverbanks along Krishna, and dense Miyawaki micro-forest plantations.
+            </p>
+            <ul class="initiative-points">
+              <li>Real-time AQI Kiosks</li>
+              <li>Clean Krishna Action Plan</li>
+            </ul>
+          </div>
+
+          <!-- Initiative 4: Smart Traffic -->
+          <div class="initiative-card">
+            <div class="initiative-icon">
+              <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <h3>AI Adaptive Traffic Grid</h3>
+            <p>
+              Dynamic sensor-controlled signal cycling reducing vehicle idle times by 28% and ensuring priority clearance for ambulances and fire trucks.
+            </p>
+            <ul class="initiative-points">
+              <li>Emergency Green Corridors</li>
+              <li>Automated E-Challan System</li>
+            </ul>
+          </div>
+
+          <!-- Initiative 5: Sustainable Infrastructure -->
+          <div class="initiative-card">
+            <div class="initiative-icon">
+              <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+              </svg>
+            </div>
+            <h3>Sustainable Green Building Code</h3>
+            <p>
+              Incentivizing LEED and GRIHA-certified commercial constructions with rainwater percolation pits and permeable road pavements.
+            </p>
+            <ul class="initiative-points">
+              <li>Energy-Efficient Codes</li>
+              <li>Permeable Urban Drainage</li>
+            </ul>
+          </div>
+
+          <!-- Initiative 6: Water Conservation -->
+          <div class="initiative-card">
+            <div class="initiative-icon cyan">
+              <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+              </svg>
+            </div>
+            <h3>Smart Water Conservation</h3>
+            <p>
+              Canal rejuvenation, grey-water recycling plants for municipal parks, and automated groundwater recharge checks across all 64 wards.
+            </p>
+            <ul class="initiative-points">
+              <li>Canal De-silting & Lining</li>
+              <li>Sewage Treatment Recycling</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 12: CONTACT AND FEEDBACK
+         Contact information, demo feedback form
+         ======================================================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Citizen Feedback & Assistance</h2>
+          <p class="section-subtitle">
+            We value your suggestions and feedback. Reach out to the Smart City administrative mission or share your ideas for Vijayawada's development.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Details Column -->
+          <div class="contact-info-panel">
+            <h3 class="panel-title">Smart City Mission Office</h3>
+            <p class="panel-desc">
+              Vijayawada Municipal Corporation (VMC) Smart City Cell, working diligently to build a resilient, equitable, and modern city.
+            </p>
+
+            <div class="contact-methods">
+              <div class="contact-method-item">
+                <div class="method-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="method-text">
+                  <strong>Office Location</strong>
+                  <span>VMC Administrative Office, Canal Road, Vijayawada - 520001, Andhra Pradesh</span>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="method-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="method-text">
+                  <strong>Email Inquiry</strong>
+                  <span>smartcity@vijayawada.gov.in (Placeholder)</span>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="method-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="method-text">
+                  <strong>Citizen Helpline</strong>
+                  <span>+91 866 2422400 / Toll Free: 1800-425-0005</span>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="method-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div class="method-text">
+                  <strong>Working Hours</strong>
+                  <span>Monday – Friday: 9:30 AM to 6:00 PM (IST)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feedback Form Column (Frontend Demonstration) -->
+          <div class="feedback-form-panel">
+            <h3 class="panel-title">Citizen Feedback Form</h3>
+            <p class="panel-notice">
+              <em>Note: This form is a frontend demonstration interface. No data is stored or submitted externally.</em>
+            </p>
+
+            <form class="feedback-form" action="#contact" method="get">
+              <div class="form-group">
+                <label for="fullName">Full Name <span class="required">*</span></label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name (e.g. Ramesh Kumar)" required class="form-input">
+              </div>
+
+              <div class="form-group">
+                <label for="emailAddress">Email Address <span class="required">*</span></label>
+                <input type="email" id="emailAddress" name="emailAddress" placeholder="example@domain.com" required class="form-input">
+              </div>
+
+              <div class="form-group">
+                <label for="feedbackCategory">Feedback Topic</label>
+                <select id="feedbackCategory" name="feedbackCategory" class="form-input">
+                  <option value="transportation">Smart Transportation & Traffic</option>
+                  <option value="public-services">Water, Electricity & Waste Services</option>
+                  <option value="healthcare">Healthcare & Emergency Response</option>
+                  <option value="education">Education & Digital Centers</option>
+                  <option value="general">General City Development Suggestion</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="userMessage">Message / Suggestion <span class="required">*</span></label>
+                <textarea id="userMessage" name="userMessage" rows="4" placeholder="Share your suggestions, civic concerns, or compliments here..." required class="form-textarea"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit">
+                Submit Feedback
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================
+       SECTION 13: FOOTER
+       Logo, quick links, important services, social media, copyright
+       ======================================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <!-- Footer Col 1: Brand Info -->
+      <div class="footer-col footer-brand-col">
+        <div class="footer-logo">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+          <span class="footer-brand-title">Smart Vijayawada</span>
+        </div>
+        <p class="footer-desc">
+          Official conceptual web portal for Smart Vijayawada. Committed to pioneering smart infrastructure, sustainable riverside growth, and citizen-first digital e-governance for the City of Tomorrow.
+        </p>
+        <div class="footer-socials">
+          <a href="#home" class="social-icon" aria-label="Official Twitter / X">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+          <a href="#home" class="social-icon" aria-label="Official Facebook">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path d="M9.198 21.5h4v-8.01h3.604l.396-3.98h-4V7.5a1 1 0 0 1 1-1h3V2.5h-3.999c-3.325 0-4.001 2.493-4.001 4.5v2.51H6.198v3.98h3v8.01z"/>
+            </svg>
+          </a>
+          <a href="#home" class="social-icon" aria-label="Official YouTube">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+          </a>
+          <a href="#home" class="social-icon" aria-label="Official LinkedIn">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.46 1.46 0 1 0-.01-2.92 1.46 1.46 0 0 0 .01 2.92m1.39 9.74v-8.37H5.07v8.37h2.78z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Footer Col 2: Quick Links -->
+      <div class="footer-col">
+        <h4 class="footer-title">Quick Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Our City</a></li>
+          <li><a href="#transportation">Transportation</a></li>
+          <li><a href="#locations">City Landmarks</a></li>
+          <li><a href="#initiatives">Green Initiatives</a></li>
+          <li><a href="#contact">Contact & Feedback</a></li>
+        </ul>
+      </div>
+
+      <!-- Footer Col 3: Public Services -->
+      <div class="footer-col">
+        <h4 class="footer-title">Public Services</h4>
+        <ul class="footer-links">
+          <li><a href="#healthcare">Government Hospitals</a></li>
+          <li><a href="#education">Education & Universities</a></li>
+          <li><a href="#services">Water & Electricity</a></li>
+          <li><a href="#services">Solid Waste Management</a></li>
+          <li><a href="#services">Smart Sensor Parking</a></li>
+          <li><a href="#services">Spandana Grievance Redressal</a></li>
+        </ul>
+      </div>
+
+      <!-- Footer Col 4: Emergency Contacts -->
+      <div class="footer-col">
+        <h4 class="footer-title">Emergency Direct</h4>
+        <ul class="footer-emergency-list">
+          <li><span>Police:</span> <a href="tel:100" class="emergency-tag-link">100</a></li>
+          <li><span>Fire & Rescue:</span> <a href="tel:101" class="emergency-tag-link">101</a></li>
+          <li><span>Ambulance:</span> <a href="tel:108" class="emergency-tag-link">108</a></li>
+          <li><span>National Helpline:</span> <a href="tel:112" class="emergency-tag-link">112</a></li>
+          <li><span>Women Helpline:</span> <a href="tel:181" class="emergency-tag-link">181</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Footer Bottom Strip -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-flex">
+        <p class="copyright-text">
+          &copy; 2026 Smart Vijayawada Municipal Corporation. All rights reserved. Built with HTML5 & CSS3.
+        </p>
+        <p class="disclaimer-text">
+          *Designed as a modern smart city conceptual prototype. Data and statistics are illustrative for smart city demonstration.
+        </p>
+        <a href="#top" class="back-to-top" aria-label="Back to top of page">
+          Back to Top &uarr;
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
